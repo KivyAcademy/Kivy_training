@@ -1,0 +1,21 @@
+<load_file_popup>:
+    title: "Select File"
+    size_hint: .9, .9
+    SMSBoxLayout:
+        orientation: "vertical"
+        FileChooser:
+            id: filechooser
+            FileChooserIconLayout
+
+
+        SMSBoxLayout:
+            size_hint: (1, 0.1)
+            pos_hint: {'center_x': .5, 'center_y': .5}
+            SMSButton:
+                text: "Cancel"
+                on_release: root.dismiss()
+            SMSButton:
+                text: "Load"
+                on_release: root.load(filechooser.selection)
+                id: ldbtn
+                disabled: True if filechooser.selection==[] else False
