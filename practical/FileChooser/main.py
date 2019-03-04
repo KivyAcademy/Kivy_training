@@ -6,7 +6,6 @@ from kivy.uix.popup import Popup
 
 import os
 
-
 class LoadDialog(FloatLayout):
     load = ObjectProperty(None)
     cancel = ObjectProperty(None)
@@ -16,7 +15,6 @@ class SaveDialog(FloatLayout):
     save = ObjectProperty(None)
     text_input = ObjectProperty(None)
     cancel = ObjectProperty(None)
-
 
 class Root(FloatLayout):
     loadfile = ObjectProperty(None)
