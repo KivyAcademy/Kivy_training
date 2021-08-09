@@ -18,7 +18,7 @@ pyparsing==2.3.0
 pypiwin32==223
 python-dateutil==2.7.5
 pytz==2018.7
-pywin32==224
+pywin32==301
 requests==2.20.0
 scipy==1.1.0
 seaborn==0.9.0
