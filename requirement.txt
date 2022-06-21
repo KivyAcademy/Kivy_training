@@ -10,7 +10,7 @@ kivy.deps.glew==0.1.10
 kivy.deps.sdl2==0.1.18
 kiwisolver==1.0.1
 matplotlib==2.2.3
-numpy==1.15.3
+numpy==1.22.0
 pandas==0.23.4
 Pillow==5.3.0
 Pygments==2.2.0
